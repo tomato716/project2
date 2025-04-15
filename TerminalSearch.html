@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./TerminalSearch.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>출발지 검색</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>출발일자, 시간 확인하시고 도착 터미널을 선택하세요.</h1>
+    </div>
+    <main class="main_container">
+      <div class="left_information">
+        <div>
+          <h1 class="startTerminal">출발터미널</h1>
+          <h1>동서울</h1>
+        </div>
+
+        <div>
+          <h1 class="info2">도착지선택</h1>
+          <h1>&nbsp;</h1>
+        </div>
+
+        <div>
+          <h1 class="info3">출발일선택</h1>
+          <h1 id="dateDisplay"></h1>
+        </div>
+
+        <div>
+          <h1 class="info4">출발시간선택</h1>
+          <h1 id="timeDisplay"></h1>
+        </div>
+      </div>
+
+      <div class="button_container">
+        <div class="main_area_button">
+          <button data-region="특별/광역/자치">
+            <h2>특별/광역/자치</h2>
+          </button>
+          <button data-region="강원도">
+            <h2>강원도</h2>
+          </button>
+          <button data-region="경기도">
+            <h2>경기도</h2>
+          </button>
+          <button data-region="경상남도">
+            <h2>경상남도</h2>
+          </button>
+          <button data-region="경상북도">
+            <h2>경상북도</h2>
+          </button>
+          <button data-region="전라남도">
+            <h2>전라남도</h2>
+          </button>
+          <button data-region="전라북도">
+            <h2>전라북도</h2>
+          </button>
+          <button data-region="충청남도">
+            <h2>충청남도</h2>
+          </button>
+          <button data-region="충청북도">
+            <h2>충청북도</h2>
+          </button>
+          <button data-region="전국">
+            <h2>전국</h2>
+          </button>
+        </div>
+
+        <div class="keyboard_button">
+          <button><h1>ㄱ</h1></button>
+          <button><h1>ㄴ</h1></button>
+          <button><h1>ㄷ</h1></button>
+          <button><h1>ㄹ</h1></button>
+          <button><h1>ㅁ</h1></button>
+          <button><h1>ㅂ</h1></button>
+          <button><h1>ㅅ</h1></button>
+          <button><h1>ㅇ</h1></button>
+          <button><h1>ㅈ</h1></button>
+          <button><h1>ㅊ</h1></button>
+          <button><h1>ㅋ</h1></button>
+          <button><h1>ㅌ</h1></button>
+          <button><h1>ㅍ</h1></button>
+          <button><h1>ㅎ</h1></button>
+          <button><h1>기타</h1></button>
+          <button class="all"><h1>전체</h1></button>
+        </div>
+        <div class="choose"></div>
+        <div class="back_next">
+          <button><h1>&lt;이전</h1></button>
+          <button><h1>이후&gt;</h1></button>
+        </div>
+      </div>
+    </main>
+    <script src="./currentTime.js"></script>
+    <script src="./data.js"></script>
+    <script src="./pagination.js"></script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 100px;
+}
+
+.header {
+  color: orange;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  padding: 10px;
+  margin: 10px 200px;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  border: 1px solid;
+}
+
+.left_information {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+.left_information div {
+  flex: 1;
+  border: 1px solid;
+}
+
+.startTerminal {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 10px 0;
+  margin: 1px;
+}
+
+.info2,
+.info3,
+.info4 {
+  color: white;
+  background-color: rgb(200, 0, 200);
+  padding: 10px 0;
+  margin: 1px;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content_header {
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+.booking_details {
+  background-color: rgb(236, 236, 236);
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap; /* 줄 바꿈을 허용 */
+}
+
+.form_group {
+  display: flex; /* 플렉스 박스 사용 */
+  justify-content: space-between; /* 항목 간의 간격 조정 */
+  flex: 1 1 45%; /* 두 개씩 배치 (최소 45% 너비) */
+  margin: 10px; /* 항목 간의 간격 */
+  border: 1px solid gray;
+  padding: 10px; /* 내부 여백 */
+  border-radius: 4px; /* 모서리 둥글게 */
+}
+
+.form_group label {
+  background-color: rgb(240, 240, 240); /* label의 배경색을 조금 더 밝게 설정 */
+  padding: 5px; /* 내부 여백 */
+  border-radius: 4px; /* 모서리 둥글게 */
+  display: block; /* label을 블록 요소로 설정 */
+  width: 40%; /* label 너비 설정 */
+}
+
+.form_group span {
+  padding: 10px;
+  background-color: white; /* span의 배경색을 흰색으로 설정 */
+  border-radius: 4px; /* 모서리 둥글게 */
+  width: 55%; /* span 너비 설정 */
+}
+
+.form_group.full-width {
+  /* 한 개씩 배치할 때 사용할 클래스 */
+  flex: 1 1 100%; /* 전체 너비 사용 */
+}
+.form_group.full-width {
+  /* 한 개씩 배치할 때 사용할 클래스 */
+  flex: 1 1 100%; /* 전체 너비 사용 */
+}
+
+.payment_btn {
+  flex: 1;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.payment_btn button {
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 50px;
+  cursor: pointer;
+  font-size: 1.5em;
+}

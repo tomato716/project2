@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 100px;
+}
+
+.header {
+  color: orange;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  padding: 10px;
+  margin: 10px 200px;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  border: 1px solid;
+}
+
+.left_information {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+.left_information div {
+  flex: 1;
+  border: 1px solid;
+}
+
+.startTerminal {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 10px 0;
+  margin: 1px;
+}
+
+.info2,
+.info3,
+.info4 {
+  color: white;
+  background-color: rgb(200, 0, 200);
+  padding: 10px 0;
+  margin: 1px;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content_header {
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+.content_header span {
+  color: orange;
+}
+
+.seat_cnt {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.seat_cnt div {
+  text-align: center;
+  flex: 1;
+}
+
+.seat_cnt_name p {
+  background-color: rgb(220, 220, 220);
+  padding: 5px 0px;
+  margin: 0 50px;
+}
+
+.seat_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.seat_btn span {
+  font-size: 2em;
+  padding: 0 50px;
+}
+
+.seat_btn button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 2.5em;
+  color: white;
+  background-color: purple;
+}
+
+.empty {
+  background-color: purple;
+}
+
+.seat_screen {
+  display: flex;
+  flex-direction: row;
+  border: 3px solid;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.seat_img_content1 {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  gap: 10px;
+  padding: 0 30px;
+}
+
+.seat_img_content1 p {
+  text-align: center;
+}
+
+.seat_img_content2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.seat_line1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.seat_line2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 15px;
+}
+
+.seat_empty {
+  padding: 25px;
+}
+
+.img_button {
+  background-image: url("./img/empty_seat.png");
+  background-size: cover; /* 버튼 크기에 맞게 이미지 크기 조정 */
+  width: 70px; /* 원하는 너비 설정 */
+  height: 70px; /* 원하는 높이 설정 */
+  border: none; /* 테두리 제거 */
+  cursor: pointer; /* 포인터 커서로 변경 */
+}
+
+.seat_line3-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.seat_line3-2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.seat_screen_footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.seat_screen_footer div {
+  flex: 1;
+}
+
+.ex_seat {
+  display: flex;
+  flex-direction: row;
+  padding-right: 100px;
+}
+
+.ex_seat p {
+  flex: 1;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+.main_content_footer {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  justify-content: center;
+}
+
+.total_cnt {
+  background-color: rgb(220, 220, 220);
+  padding: 0 50px;
+}
+
+.total_price {
+  background-color: rgb(220, 220, 220);
+  padding: 0 50px;
+}

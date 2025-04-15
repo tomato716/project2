@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 100px;
+}
+
+.header {
+  color: orange;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  padding: 10px;
+  margin: 10px 200px;
+}
+
+.main_container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  border: 1px solid;
+}
+
+.left_information {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+.left_information div {
+  flex: 1;
+  border: 1px solid;
+}
+
+.startTerminal {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  padding: 10px 0;
+  margin: 1px;
+}
+
+.info2,
+.info3,
+.info4 {
+  color: white;
+  background-color: rgb(200, 0, 200);
+  padding: 10px 0;
+  margin: 1px;
+}
+
+.main_content table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main_content table th,
+.main_content table td {
+  width: auto;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.table_btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+}
+
+.price {
+  padding: 30px 0 0 0;
+  display: flex; /* Flexbox를 사용하여 자식 요소를 가로로 나열 */
+  justify-content: space-between; /* 요소 간의 간격을 균등하게 배분 */
+  align-items: center; /* 세로 중앙 정렬 */
+  padding: 10px; /* 여백 추가 (선택 사항) */
+}
+
+.back_next {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.back_next button {
+  flex: 1;
+  color: white;
+  background-color: rgb(128, 85, 255);
+  cursor: pointer;
+  padding: 10px 100px;
+  border: none;
+}
+
+.detail_info p {
+  font-size: 1.5em;
+}
